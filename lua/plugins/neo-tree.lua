@@ -1,6 +1,10 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
-  opts = {
-    dir = "%:p:h:h",
+  config = {
+    default_component_configs = {
+      window = {
+        position = "right",
+      },
+    },
   },
 }
